@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tomas Fraire CV</title>
+    <link rel="icon" type="image/x-icon" href="../Assets/favicon/favicon.ico">
+    <link rel="stylesheet" href="../css/style.css">
+    <!--Link de google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Mono:wght@200;400;600&display=swap" rel="stylesheet">
+    <!--Link de google fonts-->
+</head>
+
+<body>
+    <!-- Animacion info -->
+    <header class="container-fluid bg-violeta-oscuro d-flex justify-content-center">
+        <p class="mt-1 mb-1 fs-6">Bienvenidos a mi Portfolio</p>
+    </header>
+    <!-- Animacion info -->
+
+    <!-- Nav -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-violeta-claro sticky-top">
+        <div class="container-fluid">
+            <div>
+                <a class="navbar-brand text-white fs-5" href="../index.html">
+                    <img src="../Assets/favicon/android-chrome-512x512.png" alt="" class="d-inline-block align-text-top ph_logo">
+                </a>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 fw-bold">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pages/projects.html">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../pages/contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pages/Timeline.html">Timeline</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Nav -->
+
+    <main>
+        <div class="container" >
+            <form action="" class="row g-3 form__container bg-violeta-claro ">
+                <div class="col-6">
+                    <label for="nameInput" class="form-label">Nombre</label>
+                    <input type="text" class="form-control" placeholder="Nombre" id="nameInput">
+                </div>
+                <div class="col-6">
+                    <label for="lastNameInput" class="form-label">Apellido</label>
+                    <input type="text" class="form-control" placeholder="Apellido" id="lastNameInput">
+                </div>
+                <div class="col-12">
+                    <label for="emailInput" class="form-label">Mail</label>
+                    <input type="email" class="form-control" id="emailInput">
+                </div>
+                <div class="col-9">
+                    <label for="propuestaInput" class="form-label">Propuesta/Puesto</label>
+                    <input type="text" class="form-control" id="propuestaInput">
+                </div>
+                <div class="col-3">
+                    <label for="inputModo" class="form-label">Tipo</label>
+                    <select id="inputModo" class="form-select">
+                        <option>Remoto</option>
+                        <option>Híbrido</option>
+                        <option>Presencial</option>
+                    </select>
+                </div>
+                <div class="col-12">
+                    <label for="desInput" class="form-label">Descripción</label>
+                    <textarea class="form-control" id="desInput" rows="4"></textarea>
+                </div>
+                <div class="col-12">
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                </div>
+            </form>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="w-100 d-flex align-items-center justify-content-center flex-wrap bg-dark text-white">
+        <p class="fs-5 px-3 pt-3">CoderHouse-TomasFraire. &copy; Todos Los Derechos Reservados 2023</p>
+    </footer>
+    <!-- Fin Footer -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.5.0/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>
+
+
+

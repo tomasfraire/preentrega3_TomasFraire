@@ -1,0 +1,11 @@
+.img_square_container {
+    width: 512px;
+    height: 512px;
+    overflow: hidden;
+}
+.img_square_container img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+}

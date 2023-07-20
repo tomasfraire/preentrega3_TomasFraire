@@ -1,0 +1,20 @@
+// Import utilities
+@import "./utilities/variables";
+@import "./utilities/colors";
+@import "./utilities/mixins";
+
+// Import globals
+@import "./global/resetcss";
+@import "./global/allviews";
+
+// Import Bootstrap
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+// Import teamplate
+@import "./template/buttons";
+
+// Import views
+@import "./views/home";
+@import "./views/contact";
+@import "./views/projects";
+@import "./views/timeline";

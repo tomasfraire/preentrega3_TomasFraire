@@ -1,0 +1,9 @@
+// Definir variables para los colores violeta oscuro y violeta claro
+$color-violeta-oscuro: #6B3A99;
+$color-violeta-claro: #B894FF;
+.bg-violeta-oscuro {
+    background-color: $color-violeta-oscuro;
+}
+.bg-violeta-claro {
+    background-color: $color-violeta-claro;
+}
