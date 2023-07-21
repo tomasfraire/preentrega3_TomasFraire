@@ -1,0 +1,8 @@
+.navbar {
+  .nav-item {
+    &:hover {
+      transform: scale(1.1); 
+      border-bottom: 2px solid rgb(96, 0, 185); 
+    }
+  }
+}

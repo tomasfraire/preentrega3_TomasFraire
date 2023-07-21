@@ -21,9 +21,10 @@
     <!-- Animacion info -->
 
     <!-- Nav -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-violeta-claro sticky-top">
+    <!-- Nav -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-violeta-claro">
         <div class="container-fluid">
-            <div>
+            <div class="me-auto">
                 <a class="navbar-brand text-white fs-5" href="../index.html">
                     <img src="../Assets/favicon/android-chrome-512x512.png" alt="" class="d-inline-block align-text-top ph_logo">
                 </a>
@@ -33,9 +34,9 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0 fw-bold">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fw-bold">
                     <li class="nav-item">
-                        <a class="nav-link" href="../index.html">Home</a>
+                        <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="../pages/projects.html">Projects</a>
@@ -44,90 +45,132 @@
                         <a class="nav-link" href="../pages/contact.html">Contact</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="../pages/Timeline.html">Timeline</a>
+                        <a class="nav-link" href="../pages/Timeline.html">Mis Estudios</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
+    <!-- Nav -->
 <!-- Nav -->
-    <main>
+<!--Galeria de tecnologias y softwares-->
+    <section class="gallery-container">
         <div class="container-fluid bg-dark">
-            <p class="h2 text-light text-center p-4">Mis Estudios</p>
+            <p class="h2 text-light text-center p-4">Tecnologias Y softwares</p>
         </div>
-        <div class="container-fluid card-container">
-            <div class="row mt-3">
-                <div class="col-xs-12 col-md-6 col-lg-4 col-xl-4">
-                    <div class="card custom-card" style="width: 18rem;">
-                        <img src="../Assets/Img/CDP.png" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-md-6 col-lg-4 col-xl-4">
-                    <div class="card custom-card" style="width: 18rem;">
-                        <img src="../Assets/Img/DaVinci.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-md-6 col-lg-4 col-xl-4">
-                    <div class="card custom-card" style="width: 18rem;">
-                        <img src="../Assets/Img/Domestika.png" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
+        <div class="gallery">
+            <div class="gallery-item">
+                <img src="../Assets/tech/html-5.png" alt="html">
+            </div>
+            <div class="gallery-item">
+                <img src="../Assets/tech/css.png" alt="css">
+            </div>
+            <div class="gallery-item">
+                <img src="../Assets/tech/js.png" alt="JavaScript">
+            </div>
+            <div class="gallery-item">
+                <img src="../Assets/tech/bootstrap.png" alt="bootstrap">
+            </div>
+            <div class="gallery-item">
+                <img src="../Assets/tech/c-sharp.png" alt="C-sharp">
+            </div>
+            <div class="gallery-item">
+                <img src="../Assets/tech/github.png" alt="github">
+            </div>
+            <div class="gallery-item">
+                <img src="../Assets/tech/MicrosoftNET.png" alt="Mincrosoft .NET">
+            </div>
+        </div>
+    </section>
+<!--Idiomas-->
+<section class="gallery-container">
+    <div class="container-fluid bg-dark">
+        <p class="h2 text-light text-center p-4">Idiomas</p>
+    </div>
+    <div class="gallery">
+        <div class="gallery-item"><p>ES</p>
+            <img src="../Assets/idomasPNG/kisspng-flag-of-argentina-map-clip-art-argentina-cliparts-5ab79cc46d4943.2822041715219826604476.png" alt="Español">
+        </div>
+        <div class="gallery-item"><p>IN</p>
+            <img src="../Assets/idomasPNG/kisspng-england-flag-of-the-united-kingdom-clip-art-england-5ab87271589f17.697692501522037361363.png" alt="Ingles">
+        </div>
+        <div class="gallery-item"><p>IT</p>
+            <img src="../Assets/idomasPNG/kisspng-flag-of-italy-flag-of-italy-map-stroke-5abe3004d5c651.8133469515224135728756.png" alt="Italiano">
+        </div>
+    </div>
+</section>
+<!--Estudios-->
+<main>
+    <div class="container-fluid bg-dark">
+        <p class="h2 text-light text-center p-4">Mis Estudios</p>
+    </div>
+    <div class="container-fluid card-container">
+        <div class="row mt-3">
+            <div class="col-xs-12 col-md-6 col-lg-4 col-xl-4">
+                <div class="card custom-card" style="width: 18rem;">
+                    <img src="../Assets/Img/CDP.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                            of the card's content.</p>
                     </div>
                 </div>
             </div>
-            <div class="row mt-3 mb-3">
-                <div class="col-xs-12 col-md-6 col-lg-4 col-xl-4">
-                    <div class="card custom-card" style="width: 18rem;">
-                        <img src="../Assets/Img/InstitutoSanIsidroLabrador.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
+            <div class="col-xs-12 col-md-6 col-lg-4 col-xl-4">
+                <div class="card custom-card" style="width: 18rem;">
+                    <img src="../Assets/Img/DaVinci.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                            of the card's content.</p>
                     </div>
                 </div>
-                <div class="col-xs-12 col-md-6 col-lg-4 col-xl-4">
-                    <div class="card custom-card" style="width: 18rem;">
-                        <img src="../Assets/Img/logos_coderhouse.png" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-md-6 col-lg-4 col-xl-4">
-                    <div class="card custom-card" style="width: 18rem;">
-                        <img src="../Assets/Img/FundAula.png" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
+            </div>
+            <div class="col-xs-12 col-md-6 col-lg-4 col-xl-4">
+                <div class="card custom-card" style="width: 18rem;">
+                    <img src="../Assets/Img/Domestika.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                            of the card's content.</p>
                     </div>
                 </div>
             </div>
         </div>
-    </main>
+        <div class="row mt-3 mb-3">
+            <div class="col-xs-12 col-md-6 col-lg-4 col-xl-4">
+                <div class="card custom-card" style="width: 18rem;">
+                    <img src="../Assets/Img/InstitutoSanIsidroLabrador.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                            of the card's content.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-md-6 col-lg-4 col-xl-4">
+                <div class="card custom-card" style="width: 18rem;">
+                    <img src="../Assets/Img/logos_coderhouse.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                            of the card's content.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-md-6 col-lg-4 col-xl-4">
+                <div class="card custom-card" style="width: 18rem;">
+                    <img src="../Assets/Img/FundAula.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                            of the card's content.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
 
     <footer class="w-100 d-flex align-items-center justify-content-center flex-wrap bg-dark text-white">
         <p class="fs-5 px-3 pt-3">CoderHouse-TomasFraire. &copy; Todos Los Derechos Reservados 2023</p>

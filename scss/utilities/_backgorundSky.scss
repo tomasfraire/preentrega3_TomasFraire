@@ -1,0 +1,10 @@
+$color-rosa-claro: #ffffff;
+$color-rosa-mas-claro: #fc6aa0;
+
+.gradient-bg {
+  background: linear-gradient(to bottom, $color-rosa-claro, $color-rosa-mas-claro);
+  background-attachment: fixed;
+}
+
+
+
