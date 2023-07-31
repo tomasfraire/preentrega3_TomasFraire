@@ -1,7 +1,7 @@
 
 $color-violeta-oscuro: #6B3A99;
 $color-violeta-claro: #B894FF;
-
+$color-blanco-crema: #f7f7ef;
 
 $color-violeta-mas-oscuro: darken($color-violeta-oscuro, 10%); 
 
@@ -10,4 +10,8 @@ $color-violeta-mas-oscuro: darken($color-violeta-oscuro, 10%);
 }
 .bg-violeta-claro {
     background-color: $color-violeta-claro;
+}
+
+.bg-blanco-crema {
+    background-color: $color-blanco-crema;
 }
